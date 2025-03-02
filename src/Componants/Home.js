@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Explore from "./Explore";
-import Navbar from "./Navbar";
+import SignIn from "./SignIn";
 
 const Home = () => {
 
@@ -40,7 +40,9 @@ const Home = () => {
               Explore
             </button>
             <button type="submit" className="">
-              Sign In
+            <Routes>
+                <Route path="/signin" element={<SignIn/>}></Route>
+              </Routes>
             </button>
           </div>
         </div>
