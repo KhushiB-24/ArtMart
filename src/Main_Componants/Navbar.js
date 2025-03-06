@@ -57,17 +57,17 @@ const Navbar = () => {
                       <ul className="dropdown-menu">
                         <li>
                           <a className="dropdown-item" href="#">
-                            Action
+                            Paintings
                           </a>
                         </li>
                         <li>
                           <a className="dropdown-item" href="#">
-                            Another action
+                            Sketches
                           </a>
                         </li>
                         <li>
                           <a className="dropdown-item" href="#">
-                            Something else here
+                            Canvas
                           </a>
                         </li>
                       </ul>
